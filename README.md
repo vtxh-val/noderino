@@ -8,7 +8,7 @@ This is a node app with a bunch of environment variables you can customize to le
 
 If you're running this app on a debian linux server (like ubuntu), don't forget to:
 1. Install node:
-`sudo apt update && sudo apt install nodejs -y`
+`sudo apt update && sudo apt install nodejs -y && sudo apt install npm -y`
 2. Install dependencies:
 `npm install`
 3. Run the server:
