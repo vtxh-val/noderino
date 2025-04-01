@@ -4,7 +4,7 @@ const port = process.env.PORT || 8080
 const number = process.env.NUMBER || 0
 
 app.get(desiredPath, (req, res) => {
-    res.send(`Hello from ${desiredPath} number ${number}!`)
+    res.send(`<h1>Hello from ${desiredPath} number ${number}!</h1>`)
 })
 
 app.get("/healthcheck", (req, res) => {
