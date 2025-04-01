@@ -7,6 +7,10 @@ app.get(desiredPath, (req, res) => {
     res.send(`Hello from ${desiredPath} number ${number}!`)
 })
 
+app.get("/healthcheck", () => {
+    res.status(200).send("It works!")
+})
+
 app.listen(port, () => {
     console.log(`Server ${number} listening on ${port} at path ${desiredPath}!`)
 })
