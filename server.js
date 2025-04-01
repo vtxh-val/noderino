@@ -12,5 +12,5 @@ app.get("/healthcheck", () => {
 })
 
 app.listen(port, () => {
-    console.log(`Server ${number} listening on ${port} at path ${desiredPath}!`)
+    console.log(`Server ${number} listening on ${port} at path ${desiredPath}`)
 })
