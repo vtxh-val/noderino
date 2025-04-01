@@ -8,5 +8,5 @@ app.get(desiredPath, (req, res) => {
 })
 
 app.listen(port, () => {
-    console.log(`App listening on ${port}!`)
+    console.log(`Server ${number} listening on ${port} at path ${desiredPath}!`)
 })
