@@ -7,7 +7,7 @@ app.get(desiredPath, (req, res) => {
     res.send(`Hello from ${desiredPath} number ${number}!`)
 })
 
-app.get("/healthcheck", () => {
+app.get("/healthcheck", (req, res) => {
     res.status(200).send("It works!")
 })
 
